@@ -1,4 +1,4 @@
-package hello.springmvc.requestmapping;
+package hello.springmvc.basic.requestmapping;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -40,5 +40,7 @@ public class MappingClassController {
     public String deleteUser(@PathVariable String userId){
         return "delete userId = " + userId;
     }
+
+
 
 }
